@@ -14,7 +14,7 @@
 
 ### css所有居中问题
 1. flex布局：
-     这种只能是父级为弹性容器， `justify-content:center; align-item:middle;display:flex;    `
+     这种只能是父级为弹性容器， `justify-content:center; align-items:center;display:flex;    `
        居中元素设置为 `margin: auto;`
 2. 宽高不定时：
      父元素`display:relative;`
