@@ -1,4 +1,4 @@
-### JS基本类型，位置
+## JS基本类型，位置
 
 5种基本类型: Number, String, Boolean, Undefined, Null
 
@@ -12,14 +12,15 @@
 
 
 
-### css所有居中问题
-1. flex布局：
+## css所有居中问题
+### 1. flex布局：
      这种只能是父级为弹性容器， `justify-content:center; align-items:center;display:flex;    `
        居中元素设置为 `margin: auto;`
-2. 宽高不定时：
+### 2. 宽高不定时：
      父元素`display:relative;`
        居中元素`display:absolute;top:50%;left:50%;**transform:translate**(-50%,-50%);`
-3. 宽高定时：
+### 3. 宽高定时：
+
  #### 方法1：使用margin 50%
 - 父元素：`display:relative;`
 
