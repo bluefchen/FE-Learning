@@ -28,7 +28,7 @@
  #### 方法2：使用calc
 - 父元素： `display:relative;`
 
-  居中元素：`display:absolute; width:100px; height:100px; margin-left:calc(50%-50px); margin-top:calc(50%-50px);`margin-top/left的值为父级元素值的50%-自身宽高的50%;
+  居中元素：`display:absolute; width:100px; height:100px; left:calc(50%-50px); top:calc(50%-50px);`margin-top/left的值为父级元素值的50%-自身宽高的50%;
 
 4. 使用margin/padding值去设置居中；
 
